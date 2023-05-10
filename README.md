@@ -1,2 +1,37 @@
-# laboratoriya-4
-front end lab
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script>
+let n=parseInt(prompt("eded yazin: "));
+
+    if(n<0){
+        if(n%2==0){
+            alert("bu eded menfidir ve cutdur.");
+        }
+    
+        else{
+            alert("bu eded menfidir ve tekdir.");
+        }
+    }
+    else if(n>0){
+        if(n%2==0){
+            alert("bu eded musbetdir ve cutdur.");
+        }
+    
+        else{
+            alert("bu eded musbetdir ve tekdir.");
+        }
+    }
+    else if(n==0){
+        alert("bu eded 0-dir.");
+        
+    }
+    
+    else{
+        alert("bu bir eded deyil!");
+    }
+
+</script>
+<body>
+
+</body>
+</head></html>
